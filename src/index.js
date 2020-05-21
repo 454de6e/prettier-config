@@ -1,15 +1,12 @@
 const config = {
-  extends: [
-    'plugin:@shopify/esnext',
-    'plugin:@shopify/react',
-    'plugin:@shopify/node',
-    'plugin:@shopify/prettier',
-  ],
-  rules: {
-    'id-length': 'off',
-    'babel/object-curly-spacing': ['error', 'always'],
-    '@shopify/jsx-no-hardcoded-content': 'off',
-  },
+  bracketSpacing: true,
+  jsxBracketSameLine: false,
+  printWidth: 80,
+  proseWrap: 'always',
+  semi: true,
+  singleQuote: true,
+  tabWidth: 2,
+  useTabs: false,
 };
 
 export default config;
