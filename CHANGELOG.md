@@ -1,5 +1,11 @@
 # @maiertech/prettier-config
 
+## 0.2.0
+
+### Minor Changes
+
+- d3bfd90: Set minimum Node version to 10.20.0
+
 ## 0.1.1
 
 ### Patch Changes
