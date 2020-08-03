@@ -1,5 +1,11 @@
 # @maiertech/prettier-config
 
+## 0.2.1
+
+### Patch Changes
+
+- f79906f: Republish with microbundle 0.12.3
+
 ## 0.2.0
 
 ### Minor Changes
