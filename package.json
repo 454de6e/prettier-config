@@ -21,11 +21,11 @@
     "watch": "microbundle watch --format modern,cjs --compress false",
     "version": "changeset version && npm run format",
     "release": "changeset publish",
-    "lint": "run-s lint:*",
+    "lint": "npm run lint:eslint && npm run lint:prettier",
     "lint:eslint": "eslint . --ignore-path .gitignore",
     "lint:prettier": "npm run prettier -- --check",
     "prettier": "prettier . --ignore-path .gitignore",
-    "format": "run-s format:*",
+    "format": "npm run lint:eslint && npm run:prettier",
     "format:eslint": "npm run lint:eslint -- --fix",
     "format:prettier": "npm run prettier -- --write",
     "purge": "rm -rf ./node_modules",
@@ -35,14 +35,14 @@
     "prettier": "^2.0.5"
   },
   "devDependencies": {
-    "@changesets/cli": "2.12.0",
-    "@maiertech/eslint-config": "0.15.0",
-    "eslint": "6.8.0",
+    "@changesets/cli": "^2.12.0",
+    "@maiertech/eslint-config": "^0.16.0",
+    "eslint": "^7.17.0",
     "husky": "^4.3.7",
-    "lint-staged": "10.5.2",
-    "microbundle": "0.12.4",
-    "npm-check": "5.9.2",
-    "npm-run-all": "4.1.5",
-    "prettier": "2.2.1"
+    "lint-staged": "^10.5.3",
+    "microbundle": "^0.12.4",
+    "micromatch": "^4.0.2",
+    "npm-check": "^5.9.2",
+    "prettier": "^2.2.1"
   }
 }
