@@ -1,5 +1,11 @@
 # @maiertech/prettier-config
 
+## 0.2.2
+
+### Patch Changes
+
+- 167f36c: Rebuild package with microbundle 0.12.4
+
 ## 0.2.1
 
 ### Patch Changes
