@@ -33,7 +33,7 @@
     "lint": "npm run lint:eslint && npm run lint:prettier",
     "lint:eslint": "eslint . --ignore-path .gitignore",
     "lint:prettier": "npm run prettier -- --check",
-    "format": "npm run lint:eslint && npm run:prettier",
+    "format": "npm run format:eslint && npm run format:prettier",
     "format:eslint": "npm run lint:eslint -- --fix",
     "format:prettier": "npm run prettier -- --write",
     "test": "npx package-check",
