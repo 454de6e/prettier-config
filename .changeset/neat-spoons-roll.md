@@ -2,4 +2,4 @@
 '@maiertech/prettier-config': patch
 ---
 
-Rebuild package with microbundle 0.12.4
+Upgrade microbundle to v0.13.0 and re-publish
