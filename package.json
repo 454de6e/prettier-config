@@ -19,7 +19,7 @@
     "prettier"
   ],
   "engines": {
-    "node": ">=10.20.0"
+    "node": ">=12"
   },
   "publishConfig": {
     "access": "public"
