@@ -1,6 +1,6 @@
 {
   "name": "@maiertech/prettier-config",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "author": "Thilo Maier <git@maier.asia>",
   "description": "Sharable config for Prettier.",
   "repository": "github:maiertech/prettier-config",

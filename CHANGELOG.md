@@ -1,5 +1,15 @@
 # @maiertech/prettier-config
 
+## 0.3.0
+
+### Minor Changes
+
+- c01347c: Drop support for Node v10
+
+### Patch Changes
+
+- 167f36c: Upgrade microbundle to v0.13.0 and re-publish
+
 ## 0.2.1
 
 ### Patch Changes
