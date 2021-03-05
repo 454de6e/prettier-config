@@ -45,7 +45,7 @@
   },
   "devDependencies": {
     "@changesets/cli": "^2.13.0",
-    "@maiertech/eslint-config": "^0.16.0",
+    "@maiertech/eslint-config": "^0.17.1",
     "@skypack/package-check": "^0.2.2",
     "eslint": "^7.17.0",
     "husky": "^4.3.7",
