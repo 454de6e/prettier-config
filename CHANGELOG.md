@@ -1,5 +1,11 @@
 # @maiertech/prettier-config
 
+## 0.3.1
+
+### Patch Changes
+
+- ac032ee: Remove pinst from devDependencies and remove related tasks
+
 ## 0.3.0
 
 ### Minor Changes
