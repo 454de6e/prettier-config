@@ -1,4 +1,4 @@
-const config = {
+module.exports = {
   bracketSpacing: true,
   jsxBracketSameLine: false,
   printWidth: 80,
@@ -8,5 +8,3 @@ const config = {
   tabWidth: 2,
   useTabs: false,
 };
-
-export default config;
