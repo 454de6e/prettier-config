@@ -15,4 +15,10 @@ Then create `.prettierrc.json` in your project root with
 "@maiertech/prettier-config"
 ```
 
-as content.
+as content or add
+
+```json
+"prettier": "@maiertech/prettier-config",
+```
+
+to your `package.json`.
