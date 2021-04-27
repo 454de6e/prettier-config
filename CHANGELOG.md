@@ -1,5 +1,11 @@
 # @maiertech/prettier-config
 
+## 1.0.0
+
+### Major Changes
+
+- 2b41980: Drop ESM support in package
+
 ## 0.3.1
 
 ### Patch Changes
