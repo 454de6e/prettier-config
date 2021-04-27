@@ -1,5 +1,11 @@
 # @maiertech/prettier-config
 
+## 1.0.1
+
+### Patch Changes
+
+- 8ab15ab: Add exports field to package.json
+
 ## 1.0.0
 
 ### Major Changes
