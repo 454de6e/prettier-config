@@ -5,7 +5,7 @@
   "description": "Sharable config for Prettier.",
   "repository": "github:maiertech/prettier-config",
   "license": "MIT",
-  "main": "./index.js",
+  "exports": "./index.js",
   "files": [
     "index.js"
   ],
