@@ -1,5 +1,15 @@
 # @maiertech/prettier-config
 
+## 2.0.0
+
+### Major Changes
+
+- d048eb3: Drop support for Node 12
+
+### Patch Changes
+
+- 346c795: Replace jsxBracketSameLine with default bracketSameLine
+
 ## 1.0.1
 
 ### Patch Changes
